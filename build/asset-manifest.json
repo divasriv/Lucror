@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfcb0909.chunk.css",
-    "main.js": "/static/js/main.7ca64239.chunk.js",
-    "main.js.map": "/static/js/main.7ca64239.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.77ba77de.chunk.css": "/static/css/2.77ba77de.chunk.css",
-    "static/js/2.a3556cc0.chunk.js": "/static/js/2.a3556cc0.chunk.js",
-    "static/js/2.a3556cc0.chunk.js.map": "/static/js/2.a3556cc0.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a18c1b35b1f3082e94eef3e396ef4eb5.js": "/precache-manifest.a18c1b35b1f3082e94eef3e396ef4eb5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.77ba77de.chunk.css.map": "/static/css/2.77ba77de.chunk.css.map",
-    "static/css/main.cfcb0909.chunk.css.map": "/static/css/main.cfcb0909.chunk.css.map",
-    "static/media/bg1.mp4": "/static/media/bg1.aa05cc53.mp4",
-    "static/media/index.scss": "/static/media/slick.f97e3bbf.svg"
+    "main.css": "localhost/static/css/main.18be0245.chunk.css",
+    "main.js": "localhost/static/js/main.e74b7d86.chunk.js",
+    "main.js.map": "localhost/static/js/main.e74b7d86.chunk.js.map",
+    "runtime~main.js": "localhost/static/js/runtime~main.b947f22c.js",
+    "runtime~main.js.map": "localhost/static/js/runtime~main.b947f22c.js.map",
+    "static/css/2.a461410e.chunk.css": "localhost/static/css/2.a461410e.chunk.css",
+    "static/js/2.fc4841b0.chunk.js": "localhost/static/js/2.fc4841b0.chunk.js",
+    "static/js/2.fc4841b0.chunk.js.map": "localhost/static/js/2.fc4841b0.chunk.js.map",
+    "index.html": "localhost/index.html",
+    "precache-manifest.af57a7b52263f709c116efcf698396da.js": "localhost/precache-manifest.af57a7b52263f709c116efcf698396da.js",
+    "service-worker.js": "localhost/service-worker.js",
+    "static/css/2.a461410e.chunk.css.map": "localhost/static/css/2.a461410e.chunk.css.map",
+    "static/css/main.18be0245.chunk.css.map": "localhost/static/css/main.18be0245.chunk.css.map",
+    "static/media/bg1.mp4": "localhost/static/media/bg1.aa05cc53.mp4",
+    "static/media/diva2.png": "localhost/static/media/diva2.05ce4fa5.png",
+    "static/media/index.scss": "localhost/static/media/slick.f97e3bbf.svg"
   }
 }
