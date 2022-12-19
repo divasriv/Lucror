@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Lucror/static/css/main.18be0245.chunk.css",
+    "main.js": "/Lucror/static/js/main.28873e76.chunk.js",
+    "main.js.map": "/Lucror/static/js/main.28873e76.chunk.js.map",
+    "runtime~main.js": "/Lucror/static/js/runtime~main.c8e99aee.js",
+    "runtime~main.js.map": "/Lucror/static/js/runtime~main.c8e99aee.js.map",
+    "static/css/2.fb38f909.chunk.css": "/Lucror/static/css/2.fb38f909.chunk.css",
+    "static/js/2.fc4841b0.chunk.js": "/Lucror/static/js/2.fc4841b0.chunk.js",
+    "static/js/2.fc4841b0.chunk.js.map": "/Lucror/static/js/2.fc4841b0.chunk.js.map",
+    "index.html": "/Lucror/index.html",
+    "precache-manifest.efecb610f441cc3b4051cdfa7732822b.js": "/Lucror/precache-manifest.efecb610f441cc3b4051cdfa7732822b.js",
+    "service-worker.js": "/Lucror/service-worker.js",
+    "static/css/2.fb38f909.chunk.css.map": "/Lucror/static/css/2.fb38f909.chunk.css.map",
+    "static/css/main.18be0245.chunk.css.map": "/Lucror/static/css/main.18be0245.chunk.css.map",
+    "static/media/bg1.mp4": "/Lucror/static/media/bg1.aa05cc53.mp4",
+    "static/media/diva2.png": "/Lucror/static/media/diva2.05ce4fa5.png",
+    "static/media/index.scss": "/Lucror/static/media/slick.f97e3bbf.svg"
+  }
+}
