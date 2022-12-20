@@ -5,6 +5,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp , FiCheck } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import logo1 from "../images/logo/logo1.png";
 
 const PricingTable = () => {
     return (
@@ -12,7 +13,7 @@ const PricingTable = () => {
             <PageHelmet pageTitle='Pricing Table' />
 
             {/* Start Header Area  */}
-            <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+            <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
             {/* End Header Area  */}
             
             {/* Start Breadcrump Area */}

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Ai from './Ai.png';
 
 class LucrorAi extends Component {
     render() {
@@ -15,7 +16,7 @@ class LucrorAi extends Component {
                     <div className="row row--35 align-items-center">
                         <div className="col-lg-5">
                             <div className="thumbnail">
-                            <img className="w-100" src="/assets/images/verticals/lucrorai.jpg" alt="LucrorAi"/>                            </div>
+                            <img className="w-100" src={Ai} alt="LucrorAi"/>                            </div>
                         </div>
                         <div className="col-lg-7">
                             <div className="about-inner inner">

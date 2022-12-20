@@ -5,6 +5,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import logo1 from "../images/logo/logo1.png";
 
 
 
@@ -91,7 +92,7 @@ class About extends Component {
         return (
             <React.Fragment>
                 <PageHelmet pageTitle='About' />
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
                 <Breadcrumb title={'About'} />
                 <div className="rn-about-area ptb--120 bg_color--1">
                     <div className="rn-about-wrapper">

@@ -86,9 +86,9 @@
     "workbox-webpack-plugin": "4.2.0"
   },
   "scripts": {
-    "start": "node --openssl-legacy-provider scripts/start.js",
-    "build": "node --openssl-legacy-provider scripts/build.js",
-    "test": "node --openssl-legacy-provider scripts/test.js",
+    "start": "node --openssl-legacy-provider dyn/start.js",
+    "build": "node --openssl-legacy-provider dyn/build.js",
+    "test": "node --openssl-legacy-provider dyn/test.js",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build"
   },

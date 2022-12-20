@@ -9,9 +9,9 @@ const TestimonialOne = () => {
                         <div className="rn-testimonial-content text-center">
                             <div className="inner">
                                 <p><br>Lucror is a global consortium of industry leaders who have made their mark in their sphere of work and are known by the legacy they have created over time. </br>
-<br>From Food to Finance, Ai to Advertising, Corporate to Creative, Technology to Transformation, Manufacturing to Marketing, Lucror enables your access to its dynamic knowledge and expertise thinktank for every business requirement. </br>
-<br>Lucror is about virtuosity and YOU!! We Believe in Ingenuity, Generosity, Triumph, Collective progression; while aspiring for Higher Good. Work Hale -Anyplace-In Perpetuum. </br>
-</p>
+                                <br>From Food to Finance, Ai to Advertising, Corporate to Creative, Technology to Transformation, Manufacturing to Marketing, Lucror enables your access to its dynamic knowledge and expertise thinktank for every business requirement. </br>
+                                <br>Lucror is about virtuosity and YOU!! We Believe in Ingenuity, Generosity, Triumph, Collective progression; while aspiring for Higher Good. Work Hale -Anyplace-In Perpetuum. </br>
+                                </p>
                             </div>
                             <div className="author-info">
                                 <h6><span>Aklima </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>

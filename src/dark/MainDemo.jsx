@@ -13,6 +13,7 @@ import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
 import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import Helmet from "../component/common/Helmet";
+import logo1 from "../images/logo/logo1.png";
 
 
 class MainDemo extends Component{
@@ -21,7 +22,7 @@ class MainDemo extends Component{
         return(
             <div className="active-dark"> 
                 <Helmet pageTitle="Lucror World" />
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
 
                 {/* Start Slider Area   */}
                 <div className="slider-wrapper">

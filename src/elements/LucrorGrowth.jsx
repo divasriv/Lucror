@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Growth from './Growth.png';
+
 class LucrorGrowth extends Component{
     render(){
         let title = 'LucrorGrowth';
@@ -12,7 +14,7 @@ class LucrorGrowth extends Component{
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                    <img className="w-100" src="/assets/images/brand/brand-01.png" alt="LucrorGrowth"/>
+                                    <img className="w-100" src={Growth} alt="LucrorGrowth"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">

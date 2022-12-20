@@ -7,6 +7,8 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import logo1 from "../images/logo/logo1.png";
+import blog from "../images/blog/blog-01.jpeg";
 
 class BlogDetails extends Component{
     constructor () {
@@ -23,7 +25,7 @@ class BlogDetails extends Component{
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='Blog Details' />
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
                 
                 {/* Start Breadcrump Area */}
                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--7" data-black-overlay="7">
@@ -63,7 +65,7 @@ class BlogDetails extends Component{
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. Necessary, making this the first true generator on the Internet. It re are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injectedeed eedhumour, or randomised words which don't look even slightly believable.</p>
                                         <div className="blog-single-list-wrapper d-flex flex-wrap">
                                             <div className="thumbnail">
-                                                <img className="w-100" src="/assets/images/blog/blog-single-01.png" alt="BLog Images"/>
+                                                <img className="w-100" src={blog} alt="BLog Images"/>
                                                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</span>
                                             </div>
                                             <div className="content">

@@ -9,6 +9,8 @@ import LucrorAi from "../elements/LucrorAi";
 import LucrorGrowth from "../elements/LucrorGrowth";
 import LucrorInsourcing from "../elements/LucrorInsourcing";
 import LucrorInvent from "../elements/LucrorInvent";
+import logo1 from "../images/logo/logo1.png";
+
 
 
 class Verticals extends Component {
@@ -17,7 +19,7 @@ class Verticals extends Component {
         return (
             <React.Fragment>
                 <PageHelmet pageTitle='Verticals' />
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
                 <Breadcrumb title={'Verticals'} />
                 <div className="rn-about-area ptb--120 bg_color--1">
                     <div className="rn-about-wrapper">

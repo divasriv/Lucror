@@ -7,6 +7,7 @@ import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import BrandOne from "../elements/Brand";
 import BrandTwo from "../elements/BrandTwo";
+import logo1 from "../images/logo/logo1.png";
 
 const Brand = () => {
     return (
@@ -14,7 +15,7 @@ const Brand = () => {
             <PageHelmet pageTitle='Client Logo' />
 
             {/* Start Header Area  */}
-            <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+            <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
             {/* End Header Area  */}
             
             {/* Start Breadcrump Area */}

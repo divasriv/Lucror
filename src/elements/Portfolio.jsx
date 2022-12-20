@@ -8,6 +8,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import logo1 from "../images/logo/logo1.png";
 
 const list = [
     {
@@ -47,7 +48,7 @@ class Portfolio extends Component{
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='Portfolio' />
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
                 {/* Start Breadcrump Area */}
                 <Breadcrumb title={'Portfolio'}   />
                 {/* End Breadcrump Area */}

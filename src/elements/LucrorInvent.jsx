@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Invent from './Invent.png';
+
 
 class LucrorInvent extends Component{
     render(){
@@ -11,7 +13,7 @@ class LucrorInvent extends Component{
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/verticals/lucrorinvent.jpg" alt="LucrorInvent"/>
+                                        <img className="w-100" src={Invent} alt="LucrorInvent"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">

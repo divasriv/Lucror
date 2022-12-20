@@ -6,7 +6,7 @@ import Breadcrumb from "../elements/common/Breadcrumb";
 import ScrollToTop from 'react-scroll-up';
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
-
+import logo1 from "../images/logo/logo1.png";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -25,7 +25,7 @@ class GoogleMap extends Component {
                 <PageHelmet pageTitle='Google Map' />
 
                 {/* Start Header Area  */}
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
                 {/* End Header Area  */}
                 
                 {/* Start Breadcrump Area */}

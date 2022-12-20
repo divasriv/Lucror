@@ -7,7 +7,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import CounterOne from "../elements/counters/CounterOne";
 import CounterTwo from "../elements/counters/CounterTwo";
-
+import logo1 from "../images/logo/logo1.png";
 import Footer from "../component/footer/Footer";
 
 const Counters = () => {
@@ -16,7 +16,7 @@ const Counters = () => {
             <PageHelmet pageTitle='Counters' />
 
             {/* Start Header Area  */}
-            <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+            <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
             {/* End Header Area  */}
             
             {/* Start Breadcrump Area */}

@@ -7,6 +7,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import logo1 from "../images/logo/logo1.png";
 
 class Blog extends Component{
     render(){
@@ -14,7 +15,7 @@ class Blog extends Component{
             <React.Fragment>
                 <PageHelmet pageTitle='Blog' />
 
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
                 {/* Start Breadcrump Area */}
                 <Breadcrumb title={'Blog List'}   />
                 {/* End Breadcrump Area */}

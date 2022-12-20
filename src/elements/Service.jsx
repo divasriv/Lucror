@@ -5,6 +5,7 @@ import { FiCast , FiLayers , FiUsers , FiMonitor ,FiChevronUp } from "react-icon
 import ScrollToTop from 'react-scroll-up';
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import logo1 from "../images/logo/logo1.png";
 
 
 const ServiceList = [
@@ -44,7 +45,7 @@ class Service extends Component{
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='Service' />
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
 
                 {/* Start Breadcrump Area */}
                 <Breadcrumb title={'Service'}   />

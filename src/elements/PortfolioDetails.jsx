@@ -6,6 +6,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import logo1 from "../images/logo/logo1.png";
 
 const SocialShare = [
      /*  {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},*/
@@ -30,7 +31,7 @@ class PortfolioDetails extends Component{
             <React.Fragment>
                 <PageHelmet pageTitle='Portfolio Details' />
 
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
                 
                 {/* Start Breadcrump Area */}
                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--4"  data-black-overlay="7">

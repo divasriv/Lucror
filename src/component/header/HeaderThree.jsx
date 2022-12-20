@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import {FaInstagram ,FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy' 
+import logoforweb from "./../../images/logo/Logo-for-web_jan29-2.png";
+
 
 const SocialShare = [
     {/*Social: <FaFacebookF /> , link: 'https://www.facebook.com/'*/},
@@ -55,15 +57,15 @@ class HeaderThree extends Component{
         const { logo, color='default-color' } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px" alt="Lucror" />;
+            logoUrl = <img src={logoforweb} height="100px" alt="Lucror" />;
         }else if(logo === 'dark'){
-            logoUrl = <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px" alt="Lucror" />;
+            logoUrl = <img src={logoforweb} height="100px" alt="Lucror" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px" alt="Lucror" />;
+            logoUrl = <img src={logoforweb} height="100px" alt="Lucror" />;
         }else if(logo === 'symbol-light'){
-            logoUrl = <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px" alt="Lucror" />;
+            logoUrl = <img src={logoforweb} height="100px" alt="Lucror" />;
         }else{
-            logoUrl = <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px"alt="Lucror" />;
+            logoUrl = <img src={logoforweb} height="100px"alt="Lucror" />;
         }
         
         return(

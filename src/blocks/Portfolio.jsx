@@ -7,6 +7,7 @@ import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import Slider from "react-slick";
 // import PortfolioList from "../elements/portfolio/PortfolioList";
+import logo1 from "../images/logo/logo1.png";
 import { slickDot  } from "../page-demo/script";
 
 const list = [
@@ -63,7 +64,7 @@ const Portfolio = () => {
             <PageHelmet pageTitle='Counters' />
 
             {/* Start Header Area  */}
-            <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+            <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
             {/* End Header Area  */}
             
             {/* Start Breadcrump Area */}

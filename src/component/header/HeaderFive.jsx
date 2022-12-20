@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import { FiX , FiMenu } from "react-icons/fi"; 
+import logoforweb from "./../../images/logo/Logo-for-web_jan29-2.png";
+
 
 
 class HeaderFive extends Component{
@@ -33,17 +35,17 @@ class HeaderFive extends Component{
         const { logo, color , headerPosition } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px" alt="Lucror" />;
+            logoUrl = <img src={logoforweb} height="100px" alt="Lucror" />;
         }else if(logo === 'dark'){
-            logoUrl = <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px"alt="Lucror" />;
+            logoUrl = <img src={logoforweb} height="100px"alt="Lucror" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px" alt="Lucror" />;
+            logoUrl = <img src={logoforweb} height="100px" alt="Lucror" />;
         }else if(logo === 'all-dark'){
-            logoUrl = <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px" alt="Lucror" />;
+            logoUrl = <img src={logoforweb} height="100px" alt="Lucror" />;
         } else if(logo === 'symbol-light'){
-            logoUrl = <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px" alt="Lucror" />;
+            logoUrl = <img src={logoforweb} height="100px" alt="Lucror" />;
         }else{
-            logoUrl = <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px" alt="Lucror" />;
+            logoUrl = <img src={logoforweb} height="100px" alt="Lucror" />;
         }
         
         return(

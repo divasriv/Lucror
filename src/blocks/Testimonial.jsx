@@ -7,13 +7,14 @@ import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import TestimonialOne from "./testimonial/TestimonialOne";
 import TestimonialTwo from "./testimonial/TestimonialTwo";
+import logo1 from "../images/logo/logo1.png";
 
 const Testimonial = () => {
     return (
         <>
             <PageHelmet pageTitle='Testimonial' />
             {/* Start Header Area  */}
-            <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+            <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
             {/* End Header Area  */}
 
             {/* Start Breadcrump Area */}

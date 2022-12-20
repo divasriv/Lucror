@@ -5,7 +5,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
-
+import logo1 from "../images/logo/logo1.png";
 import ServiceTwo from "../elements/service/ServiceTwo";
 import CounterOne from "../elements/counters/CounterOne";
 import Testimonial from "../elements/Testimonial";
@@ -52,7 +52,7 @@ class Startup extends Component{
         return(
             <Fragment> 
                 <Helmet pageTitle="Startup" />
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
 
                 {/* Start Slider Area   */}
                 <div className="slider-wrapper">

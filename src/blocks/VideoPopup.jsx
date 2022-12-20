@@ -6,6 +6,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import ModalVideo from 'react-modal-video';
+import logo1 from "../images/logo/logo1.png";
 
 
 class VideoPopup extends Component {
@@ -25,7 +26,7 @@ class VideoPopup extends Component {
                 <PageHelmet pageTitle='Video Popup' />
 
                 {/* Start Header Area  */}
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
                 {/* End Header Area  */}
 
                 {/* Start Breadcrump Area */}

@@ -1,5 +1,7 @@
 import React from 'react';
-import {FaInstagram , FaLinkedinIn} from "react-icons/fa"; 
+import {FaInstagram , FaLinkedinIn} from "react-icons/fa";
+import logoforweb from "./../../images/logo/Logo-for-web_jan29-2.png";
+
 
 const SocialShare = [
     //{Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
@@ -17,7 +19,7 @@ const FooterTwo = () => {
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
                                 <a href="/home-one">
-                                    <img src="/assets/images/logo/Logo-for-web_jan29-2.png" height="100px" alt="Logo images"/>
+                                    <img src={logoforweb} height="100px" alt="Logo images"/>
                                 </a>
                             </div>
                         </div>

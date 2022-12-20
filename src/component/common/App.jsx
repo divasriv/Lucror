@@ -3,13 +3,14 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../header/Header";
 import Footer from "../footer/Footer"; 
+import logo1 from "../images/logo/logo1.png";
 
 
 class App extends Component{
     render(){
         return(
             <Fragment>
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo1.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logoname={logo1} />
                 {this.props.children}
 
                  {/* Start Back To Top */}
