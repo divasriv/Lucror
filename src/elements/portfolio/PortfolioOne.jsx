@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-
 const PortfolioList = [
     {
         image: 'image-6',

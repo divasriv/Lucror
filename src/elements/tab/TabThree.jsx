@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
-
+ 
 const TabOne = [
     {
         image: '01',

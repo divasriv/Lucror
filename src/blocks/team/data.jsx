@@ -1,5 +1,5 @@
 import React from "react";
-import {  FaLinkedinIn  } from "react-icons/fa";
+import {  FaLinkedinIn  } from "react-icons/fa"; 
 
 let data = [
     {

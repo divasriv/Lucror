@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { portfolioSlick } from "../../page-demo/script";
-
+ 
 const PortfolioList = [
     {
         image: 'image-1',

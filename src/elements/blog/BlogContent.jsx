@@ -9,7 +9,6 @@ const BlogContent = [
         title: 'Franchising and F&B',
         //category: 'Management'
     },
-
     {
         images: '04',
         title: 'Fashion & Retail',

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 const CallAction = () => {
     return (
         <div className="call-to-action-wrapper call-to-action text-white-wrapper  ptb--120">

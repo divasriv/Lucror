@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaInstagram , FaLinkedinIn} from "react-icons/fa";
+import {FaInstagram , FaLinkedinIn} from "react-icons/fa"; 
 
 const SocialShare = [
     //{Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},

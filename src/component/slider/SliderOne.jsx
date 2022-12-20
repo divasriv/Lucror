@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ServiceOne from "../../elements/service/ServiceOne";
-import Bg from "../../component/video/bg1.mp4";
-// import { NoEmitOnErrorsPlugin } from "webpack";
+import Bg from "../../component/video/bg02.mp4";
+// import { NoEmitOnErrorsPlugin } from "webpack"; 
 class SliderOne extends Component {
                
   render() {

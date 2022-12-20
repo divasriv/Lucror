@@ -8,11 +8,11 @@ class LucrorGrowth extends Component{
             <React.Fragment>
                 {/* Start About Area  */}
 
-                        <div className="container">
+                        <div className="container" >
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                    <img className="w-100" src="/assets/images/verticals/lucrorgrowth.jpg" alt="LucrorGrowth"/>
+                                    <img className="w-100" src="/assets/images/brand/brand-01.png" alt="LucrorGrowth"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">

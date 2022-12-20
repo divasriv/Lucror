@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 class AboutTwo extends Component{
-    render(){
+    render(){ 
         let title = 'About',
         description = 'Ai revolution will transform the way we do business or experience our life, if not adopting it will lead to extinction. Lucror brings the techniques and innovations with Intelligence to manage and enable you to be a market leader in your business. Lucror has immense industry and tech expertise to handhold in your new journey from Analysis-2-Analytics and Descriptive-2- Prescriptive solutions using underlying cutting-edge technologies such as Ai, ML, RPA, AR, VR, Neural Network, Data Science, Computer Vision and beyond.';
         return(

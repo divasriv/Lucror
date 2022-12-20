@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { slideSlick } from "../../page-demo/script";
-
+ 
 const SlideList = [
     {
         textPosition: 'text-center',

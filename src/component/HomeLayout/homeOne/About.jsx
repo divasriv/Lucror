@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom'
 class About extends Component{
-    render(){
+    render(){ 
         let title = 'About',
         description = 'Ai revolution will transform the way we do business or experience our life, if not adopting it will lead to extinction. Lucror brings the techniques with Intelligence to enable you to be a market leader. Lucror has immense industry and tech expertise to handhold in your new journey from Analysis-2-Analytics and Descriptive-2-Prescriptive solutions using cutting-edge technologies.';
         return(

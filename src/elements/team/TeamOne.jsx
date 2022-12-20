@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
-
+ 
 let TeamContent = [
     {
         images: '01',

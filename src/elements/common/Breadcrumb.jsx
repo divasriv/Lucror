@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
+ 
 class Breadcrumb extends Component{
     render(){
         const { title , parent} = this.props;

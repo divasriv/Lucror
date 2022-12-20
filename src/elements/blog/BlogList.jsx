@@ -1,6 +1,6 @@
 import React, { Component ,Fragment } from "react";
 import BlogContent from "./BlogContent";
-
+ 
 class BLogList extends Component{
     render() {
         const PostList = BlogContent.slice(0 , 6);

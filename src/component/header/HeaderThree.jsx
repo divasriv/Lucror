@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {FaInstagram ,FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
-import Scrollspy from 'react-scrollspy'
+import Scrollspy from 'react-scrollspy' 
 
 const SocialShare = [
     {/*Social: <FaFacebookF /> , link: 'https://www.facebook.com/'*/},

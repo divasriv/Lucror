@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { FiX , FiMenu } from "react-icons/fi";
+import { FiX , FiMenu } from "react-icons/fi"; 
 
 const SocialShare = [
     {/*Social: <FaFacebookF /> , link: 'https://www.facebook.com/'*/},

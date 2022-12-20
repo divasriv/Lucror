@@ -2,7 +2,7 @@ import React, { Component , Fragment } from "react";
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import ScrollAnimation from 'react-animate-on-scroll';
-
+ 
 class CounterOne extends Component{
     state = {
         didViewCountUp: false

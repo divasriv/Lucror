@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+ 
 class SliderWithVideo extends Component {
   render() {
     return (

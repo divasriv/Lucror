@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaAngleRight } from "react-icons/fa";
-
+ 
 export default function Pagination() {
     return (
         <div className="rn-pagination text-center">

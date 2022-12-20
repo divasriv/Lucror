@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 const TestimonialOne = () => {
     return (

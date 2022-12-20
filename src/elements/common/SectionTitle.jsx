@@ -1,5 +1,5 @@
 import React, { Component , Fragment } from "react";
-
+ 
 class SectionTitle extends Component {
     render() {
         const { title , textColor } = this.props

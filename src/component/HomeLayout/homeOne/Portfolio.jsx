@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { portfolioSlick2 } from "../../../page-demo/script";
 
 const PortfolioList = [
-    
+     
     {
         image: 'image-3',
         // category: 'Development',
