@@ -9,6 +9,7 @@ import Helmet from "../component/common/Helmet";
 import TeamOne from "../blocks/team/TeamOne";
 import Slider from "react-slick";
 import { slickDot , portfolioSlick2 } from "../page-demo/script";
+import { Link } from "react-router-dom";
 
 
 const SlideList = [
@@ -122,22 +123,30 @@ class InteriorLanding extends Component{
                     <div className="header-wrapper" id="header-wrapper">
                         <div className="header-left">
                             <div className="logo">
-                                <a href="/">
+                                {/* <a href="/"> */}
+                                <Link to="/">
                                     <img className="logo-1" src="/assets/images/logo/logo-light.png" alt="Logo Images"/>
                                     <img className="logo-2" src="/assets/images/logo/logo-all-dark.png" alt="Logo Images"/>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="header-right">
                             <nav className="mainmenunav d-lg-block">
                                 <Scrollspy className="mainmenu" items={['home','service','getstart','about','team','testimonial','portfolio']} currentClassName="is-current" offset={-200}>
-                                    <li><a href="#home">Home</a></li>
+                                    {/* <li><a href="#home">Home</a></li>
                                     <li><a href="#service">Service</a></li>
                                     <li><a href="#getstart">Get Start</a></li>
                                     <li><a href="#about">About</a></li>
                                     <li><a href="#team">Team</a></li>
                                     <li><a href="#testimonial">Testimonial</a></li>
-                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#portfolio">Portfolio</a></li> */}
+                                    <li><Link to="#home">Home</Link></li>
+                                    <li><Link to="#service">Service</Link></li>
+                                    <li><Link to="#getstart">Get Start</Link></li>
+                                    <li><Link to="#about">About</Link></li>
+                                    <li><Link to="#team">Team</Link></li>
+                                    <li><Link to="#testimonial">Testimonial</Link></li>
+                                    <li><Link to="#portfolio">Portfolio</Link></li>
                                 </Scrollspy>
                             </nav>
                             <div className="header-btn">
@@ -195,7 +204,8 @@ class InteriorLanding extends Component{
                         <div className="row service-one-wrapper mt--30">
                             {ServiceListOne.map( (val , i) => (
                                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                                    <a href="/service-details">
+                                    {/* <a href="/service-details"> */}
+                                    <Link to="/service-details">
                                         <div className="service service__style--1">
                                             <div className="icon">
                                                 <img src={`/assets/images/icons/${val.icon}`} alt="Service Icon"/>
@@ -205,7 +215,7 @@ class InteriorLanding extends Component{
                                                 <p>{val.description}</p>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             ))}
                         </div>
@@ -313,9 +323,12 @@ class InteriorLanding extends Component{
                                         <div className="content">
                                             <div className="inner">
                                                 <p>{value.category}</p>
-                                                <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                                <h4>
+                                                    {/* <a href="/portfolio-details"> */}
+                                                    <Link to="/portfolio-details">
+                                                        {value.title}</Link></h4>
                                                 <div className="portfolio-button">
-                                                    <a className="rn-btn" href="/portfolio-details">Case Study</a>
+                                                    <Link className="rn-btn" to="/portfolio-details">Case Study</Link>
                                                 </div>
                                             </div>
                                         </div>

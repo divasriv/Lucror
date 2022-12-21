@@ -9,7 +9,7 @@ import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
 import BlogContent from "../elements/blog/BlogContent";
 import Helmet from "../component/common/Helmet";
-
+import { Link } from "react-router-dom";
 const SlideList = [
     {
         textPosition: 'text-left',
@@ -22,7 +22,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <Link to="#">alteration</Link> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div>
@@ -152,13 +152,19 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="blog blog-style--1">
                                         <div className="thumbnail">
-                                            <a href="/blog-details">
+                                            {/* <a href="/blog-details"> */}
+                                            <Link to="/blog-details">
                                                 <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="content">
                                             <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="/blog-details">{value.title}</a></h4>
+                                            <h4 className="title">
+                                                {/* <a href="/blog-details"> */}
+                                                <Link to="/blog-details">
+                                                    {value.title}
+                                                    </Link>
+                                                    </h4>
                                             <div className="blog-btn">
                                                 <a className="rn-btn text-white" href="/blog-details">Read More</a>
                                             </div>

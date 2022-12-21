@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import identity from "./../../images/about/identity.jpg";
+import { Link } from "react-router-dom";
 
  
 class ContactOne extends Component{

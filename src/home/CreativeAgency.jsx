@@ -2,7 +2,7 @@ import React, { Component , Fragment } from "react";
 import { Parallax } from "react-parallax";
 import Slider from "react-slick";
 import { slickDot } from "../page-demo/script";
-
+import { Link } from "react-router-dom";
 import Header from "../component/header/Header";
 import ServiceList from "../elements/service/ServiceList";
 import CounterOne from "../elements/counters/CounterOne";

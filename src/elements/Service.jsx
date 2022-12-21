@@ -6,6 +6,7 @@ import ScrollToTop from 'react-scroll-up';
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import logo1 from "../images/logo/logo1.png";
+import { Link } from "react-router-dom";
 
 
 const ServiceList = [
@@ -65,7 +66,8 @@ class Service extends Component{
                         <div className="row service-one-wrapper">
                             {ServiceList.map( (val , i) => (
                                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                                    <a href="/service-details">
+                                    {/* <a href="/service-details"> */}
+                                    <Link to="/service-details">
                                         <div className="service service__style--2">
                                             <div className="icon">
                                                 {val.icon}
@@ -75,7 +77,7 @@ class Service extends Component{
                                                 <p>{val.description}</p>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             ))}
                         </div>
@@ -129,7 +131,8 @@ class Service extends Component{
                         <div className="row creative-service">
                             {ServiceList.map( (val , i) => (
                                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                                    <a href="/service-details">
+                                    {/* <a href="/service-details"> */}
+                                    <Link to="/service-details">
                                         <div className="service service__style--2">
                                             <div className="icon">
                                                 {val.icon}
@@ -139,7 +142,7 @@ class Service extends Component{
                                                 <p>{val.description}</p>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             ))}
                         </div>

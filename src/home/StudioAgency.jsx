@@ -1,4 +1,4 @@
-import React, { Component , Fragment } from "react";
+import React, { Component, Fragment } from "react";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import ServiceTwo from "../elements/service/ServiceTwo";
@@ -14,6 +14,7 @@ import ModalVideo from 'react-modal-video';
 import { videoTagString, VideoTag } from 'react-video-tag';
 import Helmet from "../component/common/Helmet";
 videoTagString({ src: '/assets/images/service/video.mp4', poster: '/assets/images/bg/bg-image-24.jpg' })
+import { Link } from "react-router-dom";
 
 const SlideList = [
     {
@@ -26,20 +27,20 @@ const SlideList = [
     }
 ]
 
-class StudioAgency extends Component{
-    constructor () {
+class StudioAgency extends Component {
+    constructor() {
         super()
         this.state = {
             isOpen: false
         }
         this.openModal = this.openModal.bind(this)
     }
-    openModal () {
-        this.setState({isOpen: true})
+    openModal() {
+        this.setState({ isOpen: true })
     }
-    render(){
-        const PostList = BlogContent.slice(0 , 3);
-        return(
+    render() {
+        const PostList = BlogContent.slice(0, 3);
+        return (
             <Fragment>
                 <Helmet pageTitle="Studio Agency" />
                 {/* Start Header Area  */}
@@ -49,7 +50,7 @@ class StudioAgency extends Component{
                 {/* Start Slider Area   */}
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
-                    {SlideList.map((value , index) => (
+                    {SlideList.map((value, index) => (
                         <div className="slide slide-style-2 slider-video-bg d-flex align-items-center justify-content-center" key={index} data-black-overlay="6">
                             <div className="container">
                                 <div className="row align-items-center">
@@ -62,20 +63,20 @@ class StudioAgency extends Component{
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="video-inner">
-                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
+                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({ isOpen: false })} />
                                             <button className="video-popup theme-color" onClick={this.openModal}><span className="play-icon"></span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="video-background">
-                                <VideoTag autoPlay={`${true}`} muted={`${true}`} playsInline={`${true}`} loop={`${true}`}  src={`${"/assets/images/service/video.mp4"}`} poster={`${"/assets/images/bg/bg-image-24.jpg"}`} />
+                                <VideoTag autoPlay={`${true}`} muted={`${true}`} playsInline={`${true}`} loop={`${true}`} src={`${"/assets/images/service/video.mp4"}`} poster={`${"/assets/images/bg/bg-image-24.jpg"}`} />
                             </div>
                         </div>
                     ))}
                     {/* End Single Slide */}
 
-                    
+
                 </div>
                 {/* End Slider Area   */}
 
@@ -137,24 +138,32 @@ class StudioAgency extends Component{
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="blog-btn text-left text-lg-right mt_sm--10 mt_md--10">
-                                   {/* <a className="btn-transparent rn-btn-dark" href="/blog"><span className="text">View All News</span></a>*/}
+                                    {/* <a className="btn-transparent rn-btn-dark" href="/blog"><span className="text">View All News</span></a> */}
+                                    <Link className="btn-transparent rn-btn-dark" to="/blog"><span className="text">View All News</span></Link>
                                 </div>
                             </div>
                         </div>
                         <div className="row mt--60 mt_sm--30">
-                            {PostList.map((value , i ) => (
+                            {PostList.map((value, i) => (
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="blog blog-style--1">
                                         <div className="thumbnail">
-                                            <a href="/blog-details">
-                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
-                                            </a>
+                                            <Link to="/blog-details">
+                                                {/* <a href="/blog-details"> */}
+                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images" />
+                                            </Link>
                                         </div>
                                         <div className="content">
                                             <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="/blog-details">{value.title}</a></h4>
+                                            <h4 className="title">
+                                                <Link to="/blog-details">
+                                                    {/* <a href="/blog-details"> */}
+                                                    {value.title}
+                                                </Link>
+                                            </h4>
                                             <div className="blog-btn">
-                                                <a className="rn-btn text-white" href="/blog-details">Read More</a>
+                                                {/* <a className="rn-btn text-white" href="/blog-details">Read More</a> */}
+                                                <Link className="rn-btn text-white" to="/blog-details">Read More</Link>
                                             </div>
                                         </div>
                                     </div>

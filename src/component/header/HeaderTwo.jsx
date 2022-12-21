@@ -110,7 +110,8 @@ class Header extends Component{
                             </ul>
                         </div>
                         <div className="header-btn">
-                        <a className="rn-btn" href="/contact" >Reach Me</a >
+                        {/* <a className="rn-btn" href="/contact" >Reach Me</a > */}
+                        <Link className="rn-btn" to="/contact" >Reach Me</Link >
                                 {/* <span>WHAP-IP</span> */}
                         </div>
                         {/* Start Humberger Menu  */}

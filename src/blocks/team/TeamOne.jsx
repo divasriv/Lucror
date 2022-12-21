@@ -1,5 +1,6 @@
 import React from 'react'
 import data from "./data"; 
+import { Link } from "react-router-dom";
 const TeamOne = (props) => {
     const itemSlice = data.slice(0 , props.item)
     return (
@@ -16,7 +17,11 @@ const TeamOne = (props) => {
                         </div>
                         <ul className="social-icon" >
                             {value.socialNetwork.map((social, index) =>
-                                <li key={index}><a href={`${social.url}`}>{social.icon}</a></li>
+                                <li key={index}>
+                                    {/* <a href={`${social.url}`}> */}
+                                    <Link to={`${social.url}`}>
+                                        {social.icon}
+                                        </Link></li>
                             )}
                         </ul>
                     </div>

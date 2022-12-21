@@ -8,6 +8,7 @@ import PortfolioList from "../elements/portfolio/PortfolioList";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactOne from "../elements/contact/ContactOne";
 import Helmet from "../component/common/Helmet";
+import { Link } from "react-router-dom";
 
 const SlideList = [
     {
@@ -22,7 +23,7 @@ const SlideList = [
 class PersonalPortfolio extends Component{
     render(){
         let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <Link to="#">alteration</Link> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
         return(
             <Fragment> 
                 <Helmet pageTitle="Personal Portfolio" />

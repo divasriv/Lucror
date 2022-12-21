@@ -14,6 +14,7 @@ import Team from "../elements/Team";
 import Accordion01 from "../elements/Accordion";
 import { FiCheck, FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
+import { Link } from "react-router-dom";
 
 const SlideList = [
     {

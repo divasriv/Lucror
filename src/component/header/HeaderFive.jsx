@@ -5,6 +5,7 @@ import logoforweb from "./../../images/logo/Logo-for-web_jan29-2.png";
 
 
 
+
 class HeaderFive extends Component{
     constructor(props) {
         super(props);
@@ -94,7 +95,8 @@ class HeaderFive extends Component{
                                         </ul>
                                     </nav>
                                     <div className="header-btn">
-                                    <a className="rn-btn" href="/contact" >Reach Me</a >
+                                    {/* <a className="rn-btn" href="/contact" >Reach Me</a > */}
+                                    <Link className="rn-btn" to="/contact" >Reach Me</Link >
                                 {/* <span>WHAP-IP</span> */}
                                     </div>
                                     {/* Start Humberger Menu  */}

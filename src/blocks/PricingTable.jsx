@@ -6,6 +6,8 @@ import { FiChevronUp , FiCheck } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import logo1 from "../images/logo/logo1.png";
+import { Link } from "react-router-dom";
+
 
 const PricingTable = () => {
     return (
@@ -48,7 +50,8 @@ const PricingTable = () => {
                                             </ul>
                                         </div>
                                         <div className="pricing-footer">
-                                            <a className="rn-btn" href="#pricing">Purchase Now</a>
+                                            {/* <a className="rn-btn" href="#pricing">Purchase Now</a> */}
+                                            <Link className="rn-btn" to="#pricing">Purchase Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +79,8 @@ const PricingTable = () => {
                                             </ul>
                                         </div>
                                         <div className="pricing-footer">
-                                            <a className="rn-btn" href="#pricing">Purchase Now</a>
+                                            {/* <a className="rn-btn" href="#pricing">Purchase Now</a> */}
+                                            <Link className="rn-btn" to="#pricing">Purchase Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +108,9 @@ const PricingTable = () => {
                                             </ul>
                                         </div>
                                         <div className="pricing-footer">
-                                            <a className="rn-btn" href="#pricing">Purchase Now</a>
+                                            {/* <a className="rn-btn" href="#pricing">Purchase Now</a> */}
+                                            <Link className="rn-btn" to="#pricing">Purchase Now</Link>
+
                                         </div>
                                     </div>
                                 </div>

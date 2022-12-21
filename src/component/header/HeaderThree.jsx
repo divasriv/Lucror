@@ -3,6 +3,7 @@ import {FaInstagram ,FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy' 
 import logoforweb from "./../../images/logo/Logo-for-web_jan29-2.png";
+import { Link } from "react-router-dom";
 
 
 const SocialShare = [
@@ -97,7 +98,8 @@ class HeaderThree extends Component{
                             </ul>
                         </div>
                         <div className="header-btn">
-                        <a className="rn-btn" href="/contact" >Reach Me</a >
+                        {/* <a className="rn-btn" href="/contact" >Reach Me</a > */}
+                        <Link className="rn-btn" to="/contact" >Reach Me</Link >
                                 {/* <span>WHAP-IP</span> */}
                         </div>
                         {/* Start Humberger Menu  */}

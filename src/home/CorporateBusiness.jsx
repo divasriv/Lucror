@@ -13,6 +13,7 @@ import Helmet from "../component/common/Helmet";
 import { FiCast , FiLayers , FiUsers ,FiChevronUp , FiCheck } from "react-icons/fi";
 import CounterOne from "../elements/counters/CounterOne";
 import BrandOne from "../elements/Brand";
+import { Link } from "react-router-dom";
 
 
 const SlideList = [

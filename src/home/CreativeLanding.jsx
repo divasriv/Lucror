@@ -13,7 +13,7 @@ import BrandTwo from "../elements/BrandTwo";
 import FooterTwo from "../component/footer/FooterTwo";
 import Contact from "../elements/contact/ContactTwo";
 import Helmet from "../component/common/Helmet";
-
+import { Link } from "react-router-dom";
 
 const SlideList = [
     {

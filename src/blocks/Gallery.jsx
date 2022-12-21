@@ -8,6 +8,7 @@ import Footer from "../component/footer/FooterTwo";
 import logo1 from "../images/logo/logo1.png";
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
+import { Link } from "react-router-dom";
 
 
 const PortfolioList = [
@@ -138,15 +139,22 @@ class Gallery extends Component {
                                             <div className="portfolio-static">
                                                 <div className="thumbnail-inner">
                                                     <div className="thumbnail">
-                                                        <a href="#portfolio-details">
+                                                        {/* <a href="#portfolio-details"> */}
+                                                        <Link to="#portfolio-details"> 
+                                                        {/* // renders <a href="/calendar/today"> */}
                                                             <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className="content">
                                                     <div className="inner">
                                                         <p>{value.category}</p>
-                                                        <h4><a href="#portfolio-details">{value.title}</a></h4>
+                                                        <h4>
+                                                            {/* <a href="#portfolio-details"> */}
+                                                            <Link to="#portfolio-details"> 
+                                                                {value.title}
+                                                                </Link>
+                                                                </h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -167,15 +175,22 @@ class Gallery extends Component {
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="portfolio-style--3">
                                         <div className="thumbnail">
-                                            <a href="/portfolio-details">
+                                            {/* <a href="/portfolio-details"> */}
+                                            <Link to="/portfolio-details">
                                                 <img className="w-100" src={`/assets/images/portfolio/portfolio-${value.images}.jpg`} alt="Portfolio Images"/>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="content">
                                             <p className="portfoliotype">{value.category}</p>
-                                            <h4 className="title"><a href="/portfolio-details">{value.title}</a></h4>
+                                            <h4 className="title">
+                                                {/* <a href="/portfolio-details"> */}
+                                                <Link to="/portfolio-details">
+                                                    {value.title}
+                                                    </Link>
+                                                    </h4>
                                             <div className="portfolio-btn">
-                                                <a className="rn-btn text-white" href="/portfolio-details">Read More</a>
+                                            {/* <a className="rn-btn text-white" href="/portfolio-details">Read More</a> */}
+                                                <Link className="rn-btn text-white" to="/portfolio-details">Read More</Link>
                                             </div>
                                         </div>
                                     </div>

@@ -23,29 +23,29 @@ const SlideList = [
 const PortfolioLanding = () => {
     let title = 'About Me',
         description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
-    const PostList = BlogContent.slice(0 , 3);
+    const PostList = BlogContent.slice(0, 3);
     return (
         <div className="active-dark">
             <Helmet pageTitle="Portfolio Landing" />
 
-            <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
+            <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
             {/* Start Slider Area   */}
             <div id="home" className="fix">
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
-                    {SlideList.map((value , index) => (
+                    {SlideList.map((value, index) => (
                         <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--25" key={index}>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Hi, I’m Jone Doe <br/>
-                                            <TextLoop>
-                                                <span> JS Developer.</span>
-                                                <span> UI/UX Designer.</span>
-                                                <span> Content Writter.</span>
-                                            </TextLoop>{" "}
+                                            <h1 className="title">Hi, I’m Jone Doe <br />
+                                                <TextLoop>
+                                                    <span> JS Developer.</span>
+                                                    <span> UI/UX Designer.</span>
+                                                    <span> Content Writter.</span>
+                                                </TextLoop>{" "}
                                             </h1>
                                             <h2>based in USA.</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
@@ -59,7 +59,7 @@ const PortfolioLanding = () => {
                     {/* End Single Slide */}
                 </div>
             </div>
-            {/* End Slider Area   */} 
+            {/* End Slider Area   */}
 
             {/* Start About Area */}
             <div id="about" className="fix">
@@ -69,7 +69,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images"/>
+                                        <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images" />
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -88,7 +88,7 @@ const PortfolioLanding = () => {
                     </div>
                 </div>
             </div>
-            
+
             {/* End About Area */}
 
             {/* Start Service Area  */}
@@ -109,9 +109,9 @@ const PortfolioLanding = () => {
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
             </div>
-            {/* End Service Area  */} 
+            {/* End Service Area  */}
 
             {/* Start Portfolio Area */}
             <div id="portfolio" className="fix">
@@ -155,13 +155,13 @@ const PortfolioLanding = () => {
                             </div>
                         </div>
                         <div className="row mt--60 mt_sm--40">
-                            {PostList.map((value , i ) => (
+                            {PostList.map((value, i) => (
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="blog blog-style--1">
                                         <div className="thumbnail">
-                                        <a href="/blog-details">
-                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
-                                               
+                                            <a href="/blog-details">
+                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images" />
+
                                             </a>
                                         </div>
                                         <div className="content">
@@ -174,8 +174,8 @@ const PortfolioLanding = () => {
                                     </div>
                                 </div>
                             ))}
-                        </div>    
-                    </div>    
+                        </div>
+                    </div>
                 </div>
             </div>
             {/* End Blog Area */}
@@ -196,7 +196,7 @@ const PortfolioLanding = () => {
                 </ScrollToTop>
             </div>
             {/* End Back To Top */}
-            
+
         </div>
     )
 }

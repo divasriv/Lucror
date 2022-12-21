@@ -1,6 +1,7 @@
 import React from 'react';
 import {FaInstagram , FaLinkedinIn} from "react-icons/fa";
 import logoforweb from "./../../images/logo/Logo-for-web_jan29-2.png";
+import { Link } from "react-router-dom";
 
 
 const SocialShare = [
@@ -18,9 +19,10 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
-                                <a href="/home-one">
+                                {/* <a href="/home-one"> */}
+                                <Link to="/home-one">
                                     <img src={logoforweb} height="100px" alt="Logo images"/>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -28,7 +30,8 @@ const FooterTwo = () => {
                         <div className="inner text-center">
                             <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
                                 {SocialShare.map((val , i) => (
-                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
+                                    <li key={i}>
+                                        <a href={`${val.link}`}>{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>

@@ -7,6 +7,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import logo1 from "../images/logo/logo1.png";
+import { Link } from "react-router-dom";
 
 const SocialShare = [
      /*  {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},*/

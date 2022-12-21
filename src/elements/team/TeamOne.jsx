@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
- 
+import { Link } from "react-router-dom"; 
 let TeamContent = [
     {
         images: '01',

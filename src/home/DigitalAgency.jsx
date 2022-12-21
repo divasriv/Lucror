@@ -13,6 +13,7 @@ import Brand from "../elements/Brand";
 import CallAction from "../elements/callaction/CallAction";
 import TabOne from "../elements/tab/TabOne";
 import Helmet from "../component/common/Helmet";
+import { Link } from "react-router-dom";
 
 const SlideList = [
     {

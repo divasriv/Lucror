@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FiX , FiMenu } from "react-icons/fi";
 import logoforweb from "./../../images/logo/Logo-for-web_jan29-2.png";
 
+
 class HeaderFour extends Component{
     constructor(props) {
         super(props);
@@ -87,7 +88,8 @@ class HeaderFour extends Component{
                             </ul>
                         </nav>
                         <div className="header-btn">
-                        <a className="rn-btn" href="/contact" >Reach Me</a >
+                        {/* <a className="rn-btn" href="/contact" >Reach Me</a > */}
+                        <Link className="rn-btn" to="/contact" >Reach Me</Link >
                                 {/* <span>WHAP-IP</span> */}       
                         </div>
                         {/* Start Humberger Menu  */}

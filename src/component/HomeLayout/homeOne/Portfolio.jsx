@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { portfolioSlick2 } from "../../../page-demo/script";
+import { Link } from "react-router-dom";
 
 const PortfolioList = [
      
@@ -62,7 +63,12 @@ class Portfolio extends Component{
                                     <div className="content">
                                         <div className="inner">
                                             <p>{value.category}</p>
-                                            <h4><a href="/portfolio">{value.title}</a></h4>
+                                            <h4>
+                                                {/* <a href="/portfolio"> */}
+                                                <Link to="/portfolio">
+                                                    {value.title}
+                                                    </Link>
+                                                    </h4>
                                             <div className="portfolio-button">
                                                 <a className="rn-btn" href="/portfolio">Detailed Deck</a>
                                             </div>
