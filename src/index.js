@@ -72,7 +72,7 @@ import * as serviceWorker from './serviceWorker';
 class Root extends Component{
     render(){
         return(
-            <HashRouter basename="/Lucror">
+            <HashRouter basename="/">
                 <Switch>
                     <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
