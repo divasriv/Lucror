@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a8034e35188eeb36c7a18f184acfcff",
+    "revision": "ce55ba9504ecb4cf54f8bd60efc1a8e4",
     "url": "/Lucror/index.html"
   },
   {
-    "revision": "2145d8d7aeaf5a604470",
-    "url": "/Lucror/static/css/2.fb38f909.chunk.css"
+    "revision": "8ae2273af3567826955e",
+    "url": "/Lucror/static/css/2.0cff5465.chunk.css"
   },
   {
-    "revision": "24651cb6aa4393825979",
-    "url": "/Lucror/static/css/main.2c8e1314.chunk.css"
+    "revision": "9d6d5c5a7cc8187e2f47",
+    "url": "/Lucror/static/css/main.f679dc4b.chunk.css"
   },
   {
-    "revision": "2145d8d7aeaf5a604470",
+    "revision": "8ae2273af3567826955e",
     "url": "/Lucror/static/js/2.49be16a2.chunk.js"
   },
   {
-    "revision": "24651cb6aa4393825979",
-    "url": "/Lucror/static/js/main.f17ffd8e.chunk.js"
+    "revision": "9d6d5c5a7cc8187e2f47",
+    "url": "/Lucror/static/js/main.78c4338e.chunk.js"
   },
   {
     "revision": "a21bbf0f41efac893f5f",
