@@ -60,8 +60,8 @@ class Header extends Component{
                     <div className="header-right">
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
-                                <li ><Link to="/#">Home</Link></li>
-                                <li className="has-droupdown"><Link to="/verticals">Verticals</Link>
+                                <li ><Link to="/">Home</Link></li>
+                                <li className="has-droupdown"><Link to="/Verticals">Verticals</Link>
                                     <ul className="submenu">
                                         <li><Link to="/LucrorAi">LucrorAi</Link></li>
                                         <li><Link to="/LucrorGrowth">LucrorGrowth</Link></li>
@@ -71,18 +71,18 @@ class Header extends Component{
                                 </li>
                                 <li className="has-droupdown"><Link to="/about" >About</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/identity">Identity</Link></li>
-                                        <li><Link to="/furyoffire">Fury of Fire</Link></li>
+                                        <li><Link to="/Identity">Identity</Link></li>
+                                        <li><Link to="/FuryOfFire">Fury of Fire</Link></li>
                                         
                                     </ul>
                                 </li>
                                 <li className="has-droupdown"><Link to="/blog" >Works</Link>
                                     <ul className="submenu">
                                     
-                                        <li><Link to="/portfolio">Ai Engine</Link></li>
-                                        <li><Link to="/portfolio">Food&Beverage</Link></li>
-                                        <li><Link to="/portfolio">Fashion&Retail</Link></li>
-                                        <li><Link to="/portfolio">Outsourcing</Link></li>
+                                        <li><Link to="/Portfolio">Ai Engine</Link></li>
+                                        <li><Link to="/Portfolio">Food&Beverage</Link></li>
+                                        <li><Link to="/Portfolio">Fashion&Retail</Link></li>
+                                        <li><Link to="/Portfolio">Outsourcing</Link></li>
                                     </ul>
                                 </li>
                             </ul>

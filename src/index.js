@@ -74,7 +74,7 @@ class Root extends Component{
         return(
             <HashRouter basename={process.env.PUBLIC_URL}>
                 <Switch>
-                    <Route exact path={`/Lucror`} component={Demo}/>
+                    <Route exact path={`/`} component={Demo}/>
                     <Route exact path={`/main-demo`} component={MainDemo}/>
                     <Route exact path={`/dark-main-demo`} component={DarkMainDemo}/>
                     <Route exact path={`/startup`} component={Startup}/>
@@ -100,23 +100,23 @@ class Root extends Component{
                     <Route exact path={`/service`} component={Service}/>
                     <Route exact path={`/service-details`} component={ServiceDetails}/>
                     <Route exact path={`/contact`} component={Contact}/>
-                    <Route exact path={`/about`} component={About}/>
-                    <Route exact path={`/furyoffire`} component={FuryOfFire}/>
-                    <Route exact path={`/identity`} component={Identity}/>
+                    <Route exact path={`/About`} component={About}/>
+                    <Route exact path={`/FuryOfFire`} component={FuryOfFire}/>
+                    <Route exact path={`/Identity`} component={Identity}/>
                     <Route exact path={`/portfolio-details`} component={PortfolioDetails}/>
                     <Route exact path={`/blog`} component={Blog}/>
                     <Route exact path={`/blog-details`} component={BlogDetails}/>
-                    <Route exact path={`/verticals`} component={Verticals}/>
+                    <Route exact path={`/Verticals`} component={Verticals}/>
                     <Route exact path={`/LucrorAi`} component={LucrorAi}/>
-                    <Route exact path={`/lucrorgrowth`} component={LucrorGrowth}/>
-                    <Route exact path={`/lucrorinsourcing`} component={LucrorInsoucring}/>
-                    <Route exact path={`/lucrorinvent`} component={LucrorInvent}/>
+                    <Route exact path={`/LucrorGrowth`} component={LucrorGrowth}/>
+                    <Route exact path={`/LucrorInsourcing`} component={LucrorInsoucring}/>
+                    <Route exact path={`/LucrorInvent`} component={LucrorInvent}/>
 
                     {/* Blocks Elements  */}
                     <Route exact path={`/team`} component={Team}/>
                     <Route exact path={`/counters`} component={Counters}/>
                     <Route exact path={`/testimonial`} component={Testimonial}/>
-                    <Route exact path={`/portfolio`} component={Portfolio}/>
+                    <Route exact path={`/Portfolio`} component={Portfolio}/>
                     <Route exact path={`/video-popup`} component={VideoPopup}/>
                     <Route exact path={`/gallery`} component={Gallery}/>
                     <Route exact path={`/clint-logo`} component={Brand}/>
