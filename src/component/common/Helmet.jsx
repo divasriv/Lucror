@@ -6,8 +6,8 @@ class PageHelmet extends Component{
         return(
             <React.Fragment>
                 <Helmet>
-                    <title>{this.props.pageTitle} - A World of Opportunities</title>
-                    <meta name="description" content="Lucror World - A World of Opportunities" />
+                    <title>{this.props.pageTitle} - Lucror World</title>
+                    <meta name="description" content="Lucror World" />
                 </Helmet>
             </React.Fragment>
         )
